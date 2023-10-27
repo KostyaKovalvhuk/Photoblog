@@ -4,3 +4,16 @@ body{
     font-size: 14px;
     line-height: 1.2    ;
 }
+.news-category{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+button{
+    width: 165px;
+    height: 60px;
+    flex-shrink: 0;
+    margin: auto;
+    display: block;
+}
