@@ -1,101 +1,86 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Photoblog</title>
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
-            rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
 
-     <link rel="stylesheet" href="./css/style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photoblog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+        integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
 
-    <body>
-        <!-- Шапка сайту -->
-        <header class="header">
-            <nav class="navigation">
-                <ul class="menu-list">
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">LIFESTYLE</a>
-                        </li>
+</head>
 
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">PHOTODIARY</a>
-                        </li>
+<body class="conteiner" >
+    <!-- Шапка сайту -->
+    <header class="header">
+        <nav class="navigation">
+            <ul class="menu-list">
+                <li class="menu-item
+                "><a href="#">LIFESTYLE</a></li>
+                <li class="menu-item"><a href="#">PHOTODIARY</a></li>
+                <li class="menu-item"><a href="#"> MUSIC </a></li>
+                <li class="menu-item"><a href="#">TRAVEL</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Основна частина -->
+    <main class="main">
+        <section class="news">
+            <h2>Галерея</h2>
+            <ul class="news-list">
+                <li class="news-item"><img src="images/one.jpg" alt="Дівчина на концерте" class="news-img">
+                    <p class="news-category">LIFESTYLE</p>
+                    <h2 class="news-title">More than just a music festival" </h2>
+                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea.</p>
+                </li>
 
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">MUSIC</a>
-                       </li>
+                <li class="news-item"><img src="images/two.jpg" alt="кофе">
+                    <p class="category">LIFESTYLE</p>
+                    <h2 class="news-title">Life tastes better with coffee</h2>
+                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea. </p>
+                </li>
 
-                    <li class="menu-item">
-                        <a href="#" class="menu-link">TRAVEL</a> 
-                        </li>
-                </ul>
-            </nav>
-        </header>
-        <!-- Основна частина -->
-        <main>
-            <section class="news">
-           <h2>Галерея</h2>
-                
-                    <ul class="news-card-one">
-                    <li class="news-item">
-                        <li><img src="images/one.jpg" alt="Дівчина на концерте" class="news-image" style="width: 420px; height: 280px;"></li>
-                        <li><p class="news-category">LIFESTYLE</p></li>
-                        <li><p><b class="news-title">More than just a music festival </b></p></li>
-                        <li><p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea.</p></li>
-                    </ul>
-<ul class="new-card-two">
-                    <li class="news-item"><img src="images/two.jpg" alt="коффе" style="width: 420px; height: 280px;" ></li>
-                       <li><p class="news-category">LIFESTYLE</p></li>
-                        <li><b class="news-title">Life tastes better with coffee</b></li>
-                      <li><p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea.</p></li>
-                </ul>
-<ul class="new-card-three">
-                    <li class="news-item"><img src="images/three.jpg" alt="две подругі возле моста" style="width: 420px; height: 280px;"></li>
-                      <li><p class="news-category">PHOTODAIRY</p></li>
-                        <li><b class="news-title">American dream</b></li>
-                        <li><p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea.</p></li>
-                </ul>
-<ul class="new-card-four">
-                    <li class="news-item"><img src="images/four.jpg" alt="человек в пальто" style="width: 420px; height: 280px;"></li>
-                        <li><p class="news-category">PHOTODAIRY</p></li>
-                      <li><b class="news-title">A day exploring the Alps</b></li>
-                       <li><p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea.</p></li>
-                    </ul>
-<ul class="new-card-five">
-                    <li class="news-item"><img src="images/five.jpg" alt="девушка" style="width: 420px; height: 280px;"></li>
-                       <li><p class="news-category">LIFESTYLE</p></li>
-                        <li><b class="news-title">Top 10 song for running</b></li>
-                       <li><p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea.</p></li>
-                    </ul>
-<ul class="new-card-six">
-                    <li class="news-item"><img src="images/six.jpg" alt="Дорога" style="width: 420px; height: 280px;"></li>
-                        <li><p class="news-category">LIFESTYLE</p></li>
-                        <li><b class="news-title">Cold winter days</b></li>
-                       <li><p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                            nisi ut aliquip ex ea.</p></li>
-                    </ul>
-            </section>
-            <br>
+                <li><img src="./images/three.jpg" alt="две подругі возле моста">
+                    <р class="news-category">PHOTODAIRY</p>
+                        <h2 class="news-title">American dream</h2>
+                        <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea.</p>
+                </li>
+
+                <li>
+                    <img src="images/four.jpg" alt="человек в пальто">
+                    <p class="news-category">PHOTODAIRY</p>
+                    <h2 class="news-title">A day exploring the Alps</h2>
+                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea.</p>
+                </li>
+
+                <li><img src="images/five.jpg" alt="девушка">
+                    <p class="news-category">LIFESTYLE</p>
+                    <h2 class="news-title">Top 10 song for running</h2>
+                    <p class="news-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea.</p>
+                </li>
+            </ul>
             <button type="button">Load more</button>
+        </div>
+        </section>
         </main>
-    </body>
-    </html>
+        </body>
+        </html>
